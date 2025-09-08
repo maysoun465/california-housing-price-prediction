@@ -84,5 +84,5 @@ Trained multiple regression models:
 - Tree-based ensemble methods outperform Linear Regression due to capturing non-linear relationships.  
 - Location, median_income, and total_rooms-related features strongly influence house prices.  
 - Engineered features like `rooms_per_person` and `income_per_room` improve prediction accuracy.
-Check out the model comparison chart above to visualize RMSE, MAE, and R² scores for all models.
+- Check out the model comparison chart above to visualize RMSE, MAE, and R² scores for all models.
  ![Model Comparison](model_comparison.png)
