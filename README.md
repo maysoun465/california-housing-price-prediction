@@ -75,6 +75,8 @@ Trained multiple regression models:
 | XGBoost                | 46952.20  | 29689.76  | 0.839    | Excellent balance of accuracy & generalization |
 | LGBMRegressor          | 46343.76  | 30351.37  | 0.843    | **Best overall performance, very stable** |
 | CatBoostRegressor      | 47730.34  | 31769.97  | 0.833    | Very good, slightly lower than XGBoost/LGBM |
+![Model Comparison](model_comparison.png)
+
 
 ## 📈 Key Insights
 - **LGBMRegressor** is the best performing model in terms of RMSE and R² Score.  
@@ -82,5 +84,4 @@ Trained multiple regression models:
 - Location, median_income, and total_rooms-related features strongly influence house prices.  
 - Engineered features like `rooms_per_person` and `income_per_room` improve prediction accuracy.
 
-  ![Model Comparison](model_comparison.png)
 
