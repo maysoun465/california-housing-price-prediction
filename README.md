@@ -14,7 +14,9 @@ It covers the full data science pipeline: EDA, data cleaning, feature engineerin
   - Train/Test Split
   - Modeling with multiple regressors
   - Model Evaluation & Comparison
-- `README.md` → Project description and instructions  
+- `model_comparison.png`
+- `README.md` → Project description and instructions
+
 
 **Libraries:**
 - `pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`  
@@ -75,7 +77,6 @@ Trained multiple regression models:
 | XGBoost                | 46952.20  | 29689.76  | 0.839    | Excellent balance of accuracy & generalization |
 | LGBMRegressor          | 46343.76  | 30351.37  | 0.843    | **Best overall performance, very stable** |
 | CatBoostRegressor      | 47730.34  | 31769.97  | 0.833    | Very good, slightly lower than XGBoost/LGBM |
-![Model Comparison](model_comparison.png)
 
 
 ## 📈 Key Insights
@@ -83,5 +84,5 @@ Trained multiple regression models:
 - Tree-based ensemble methods outperform Linear Regression due to capturing non-linear relationships.  
 - Location, median_income, and total_rooms-related features strongly influence house prices.  
 - Engineered features like `rooms_per_person` and `income_per_room` improve prediction accuracy.
-
-
+Check out the model comparison chart above to visualize RMSE, MAE, and R² scores for all models.
+ ![Model Comparison](model_comparison.png)
