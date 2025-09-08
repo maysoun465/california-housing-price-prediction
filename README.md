@@ -80,4 +80,7 @@ Trained multiple regression models:
 - **LGBMRegressor** is the best performing model in terms of RMSE and R² Score.  
 - Tree-based ensemble methods outperform Linear Regression due to capturing non-linear relationships.  
 - Location, median_income, and total_rooms-related features strongly influence house prices.  
-- Engineered features like `rooms_per_person` and `income_per_room` improve prediction accuracy.  
+- Engineered features like `rooms_per_person` and `income_per_room` improve prediction accuracy.
+
+  ![Model Comparison](model_comparison.png)
+
