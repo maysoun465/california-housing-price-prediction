@@ -81,5 +81,3 @@ Trained multiple regression models:
 - Tree-based ensemble methods outperform Linear Regression due to capturing non-linear relationships.  
 - Location, median_income, and total_rooms-related features strongly influence house prices.  
 - Engineered features like `rooms_per_person` and `income_per_room` improve prediction accuracy.  
-```bash
-git clone https://github.com/your-username/repo-name.git
